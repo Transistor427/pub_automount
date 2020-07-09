@@ -2,7 +2,7 @@
 sudo cp -f ./99-local.rules /etc/udev/rules.d/
 sudo chmod 777 /etc/udev/rules.d/99-local.rules
 sudo cp -f ./usb-mount@.service /etc/systemd/system/
-sudo chmod 777 /etc/udev/rules.d/usb-mount@.service
+sudo chmod 777 /etc/systemd/system/usb-mount@.service
 sudo cp -f ./usb-mount.sh /usr/local/bin/
-sudo chmod 777 /etc/udev/rules.d/usb-mount.sh
+sudo chmod 777 /usr/local/bin/usb-mount.sh
 sudo udevadm control --reload-rules
