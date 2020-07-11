@@ -1,1 +1,2 @@
-automount 
+readmy
+sudo ./automount
